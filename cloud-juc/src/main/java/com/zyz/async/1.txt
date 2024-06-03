@@ -1,0 +1,13 @@
+@async
+2.1之前每次新建一个线程去执行方法，
+spirngboot 2.1.0开始默认使用一个线程池，8个线程
+可以通过修改配置的方式，修改线程数目
+
+spring:
+ task:
+  execution:
+   pool:
+    core-size: 20
+   thread-name-prefix: task-default
+
+

@@ -1,4 +1,4 @@
-package com.zyz;
+package com.zyz.demo1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

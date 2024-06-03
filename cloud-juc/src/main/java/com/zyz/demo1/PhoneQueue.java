@@ -1,4 +1,4 @@
-package com.zyz;
+package com.zyz.demo1;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
